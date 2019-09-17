@@ -14,6 +14,7 @@ the updated data.
    `AWS_ACCESS_KEY`, and `AWS_SECRET_KEY` (or you can put your keys
     in the corresponding files: `aws_access.private` and `aws_secret.private`)
 3. Run `pull.sh` and optionally install it in your `crontab`
+4. RUN `json-it.sh` to generate the json files and optionally install it in your `crontab`
 
 The first run will grab all possible historic data (90 days, ~25 million
 entries, ~2 GB uncompressed) across all 14 regions, so it will take a while.
