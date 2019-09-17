@@ -6,7 +6,6 @@ cd $DATA_DIR
 
 INPUT=`find . -iname '*.newest'`
 
-function join_by { local IFS="$1"; shift; echo "$*"; }
 for file in $INPUT; do
 
 	while IFS='' read -r LINE || [[ -n "$LINE" ]]; do
