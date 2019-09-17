@@ -31,10 +31,12 @@ For example:
 
 See `ec2-describe-spot-price-history` for the format of the data file itself.
 
+
+And further output will be redirected to JSON file for each REGION
+
 ## TODO
 
 * clean, format, and load data points into a time series database
-* display graphs
 
 ## License
 
