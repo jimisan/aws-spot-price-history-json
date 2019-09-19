@@ -24,7 +24,7 @@
 # to be crontab compatible
 cd $(dirname $0)
 
-export JAVA_HOME=/usr/lib/jvm/java/jre
+export JAVA_HOME=/usr/
 
 # if you don't have the ec2-api-tools already, run the following in
 # the directory this script is in:
@@ -33,7 +33,7 @@ export JAVA_HOME=/usr/lib/jvm/java/jre
 #   unzip -q ec2-api-tools.zip
 #   ln -s ec2-api-tools-*/ ec2-api-tools
 #
-export EC2_HOME=`pwd`/ec2-api-tools
+export EC2_HOME=/usr/local/ec2-api-tools
 
 # replace keys with your own, or drop them in the following files
 export AWS_ACCESS_KEY=`cat aws_access.private`
